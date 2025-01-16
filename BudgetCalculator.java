@@ -29,7 +29,7 @@ public class BudgetCalculator {
     employeeStatus = taxes.scan.next();
     employeeStatus = taxes.checkEmployeeStatus(employeeStatus);
 
-    System.out.print("What is your current gross monthly income (income before deducations, rough estimation)?: $");
+    System.out.print("What is your current gross monthly income (income before deducations - rough estimation)?: $");
     taxes.checkMonthlyIncome();
     monthlyIncome = taxes.scan.nextDouble();
     
